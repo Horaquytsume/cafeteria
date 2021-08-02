@@ -1,0 +1,42 @@
+/*a aplicaçao do asteristico(*) no arquivo de css informa ao navegados
+que todos elementos da tela receberão esta formaçao*/
+* {
+  margin: 0; /* estamos zerando as margens externas dos elementos*/
+  padding: 0; /*estamos zerando as margens internas dos elementos*/
+}
+
+/*vamos aplicar na tag header cor de fundo e padding*/
+header {
+  background-color: black;
+  padding-top: 150px;
+  background-image: url("../img/cafe5.jpg");
+  background-size: 100%;
+  background-position: 0 -250px;
+  transition: ease 1s;
+}
+
+/*formatar a tag h1 que esta dentro do header.veja como fazemos*/
+header h1 {
+  color: goldenrod;
+  font-family: arial; /*mudar o tipo da letra para arial*/
+  text-align: center; /*alinhamento do texto ao centro*/
+}
+header nav {
+  background-color: rgb(37, 33, 33);
+  text-align: center;
+  padding: 5px;
+}
+header nav ul li {
+  /*exibir os itens da lista um ao lado do outro usaremos 
+    o comando dispaly(tela\exibir) inline-blocos em linas)*/
+  display: inline-block;
+  margin: 5px;
+}
+header ul li a {
+  color: red;
+  font-family: arial;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: white;
+}
