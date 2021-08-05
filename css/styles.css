@@ -12,7 +12,7 @@ header {
   background-image: url("../img/cafe5.jpg");
   background-size: 100%;
   background-position: 0 -250px;
-  transition: ease 1s;
+  transition: ease 10s;
 }
 
 /*formatar a tag h1 que esta dentro do header.veja como fazemos*/
@@ -39,4 +39,40 @@ header ul li a {
 }
 header nav ul li a:hover {
   color: white;
+}
+footer {
+  /*aplicar uma cor de fundo ao rodapé*/
+  background-color: goldenrod;
+  /*aplicar margem interna*/
+  padding: 20px;
+  padding-top: 40px;
+  height: 150px; /*altura do rodapé*/
+}
+/*para fazer uma formação em uma tag que um id definido é  nessario que
+voce adicione um sustenido(#) ao inicio do nome do id. neste caso nosa div
+tem id chamado end, entao aplicamos desta forma:end*/
+footer #end {
+  color: rgb(8, 8, 8);
+  font-family: 10pt;
+  font-size: 10pt;
+  float: left;
+  border: solid 1px gray;
+}
+footer #redes {
+  /*border: solid 1px gray;*/
+  float: right;
+}
+footer #redes a {
+  text-decoration: none;
+}
+
+footer #redes a img {
+  width: 30px; /*diminuir a largura da imagem*/
+  height: 40px; /*diminuir a altura da imagem*/
+  margin: 5px;
+  transition: ease.5s;
+}
+footer #redes a img:hover {
+  /*realizar uma rotação de 360 graus(deg)*/
+  transform: rotate(360deg);
 }
