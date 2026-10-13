@@ -53,7 +53,7 @@ voce adicione um sustenido(#) ao inicio do nome do id. neste caso nosa div
 tem id chamado end, entao aplicamos desta forma:end*/
 footer #end {
   color: rgb(8, 8, 8);
-  font-family: 10pt;
+  font-family: Arial, sans-serif;
   font-size: 10pt;
   float: left;
   border: solid 1px gray;
@@ -70,7 +70,7 @@ footer #redes a img {
   width: 30px; /*diminuir a largura da imagem*/
   height: 40px; /*diminuir a altura da imagem*/
   margin: 5px;
-  transition: ease.5s;
+  transition: ease 0.5s;
 }
 footer #redes a img:hover {
   /*realizar uma rotação de 360 graus(deg)*/
