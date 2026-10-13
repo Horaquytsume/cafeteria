@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Cafeteria</title>
+  <desc id="desc">Cabeçalho colorido do repositório Cafeteria.</desc>
+  <defs>
+    <linearGradient id="letters" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#35d6ff"/><stop offset="28%" stop-color="#7d7bff"/>
+      <stop offset="55%" stop-color="#d86bff"/><stop offset="78%" stop-color="#ff71a8"/>
+      <stop offset="100%" stop-color="#ffc857"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="240" rx="24" fill="#101426"/>
+  <g fill="#ffffff" opacity="0.78"><rect x="92" y="58" width="7" height="7"/><rect x="1083" y="74" width="6" height="6"/><rect x="1005" y="183" width="5" height="5"/><rect x="170" y="190" width="5" height="5"/></g>
+  <text x="600" y="122" text-anchor="middle" fill="url(#letters)" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="1">Cafeteria</text>
+  <rect x="250" y="153" width="700" height="3" rx="2" fill="url(#letters)" opacity="0.75"/>
+  <text x="600" y="198" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" letter-spacing="5">PROJETO WEB</text>
+</svg>
